@@ -1732,6 +1732,10 @@
 				-webkit-transition: background-color 0.2s ease-in-out;
 				-ms-transition: background-color 0.2s ease-in-out;
 				transition: background-color 0.2s ease-in-out;
+				-moz-transition: content 0.5s ease-in-out;
+				-webkit-transition: content 0.5s ease-in-out;
+				-ms-transition: content 0.5s ease-in-out;
+				transition: content 0.5s ease-in-out;
 				border-radius: 100%;
 				border: solid 2px rgba(255, 255, 255, 0.125);
 				content: '\f105';
@@ -1744,6 +1748,14 @@
 				text-indent: 0.15em;
 				vertical-align: middle;
 				width: 2em;
+			}
+
+			a.specials:before {
+				content: '\f107' !important;
+				-moz-transition: content 0.5s ease-in-out;
+				-webkit-transition: content 0.5s ease-in-out;
+				-ms-transition: content 0.5s ease-in-out;
+				transition: content 0.5s ease-in-out;
 			}
 
 			a.special:not(.button):hover:before {
@@ -3711,6 +3723,10 @@
 
 .hidden {
   display: none;
+  -moz-transition: display 0.2s ease;
+  -webkit-transition: display 0.2s ease;
+  -ms-transition: display 0.2s ease;
+  transition: display 0.2s ease;
 }
 
 .visible {

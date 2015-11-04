@@ -182,6 +182,8 @@
    		$("#myBoxThree").toggleClass('hidden');
    		$("#myBoxFour").toggleClass('hidden');
    		$("#myBoxFive").toggleClass('hidden');
+   		$("#myButton4").toggleClass('specials');
+
    	});	
 
 })(jQuery);

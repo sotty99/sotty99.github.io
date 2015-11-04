@@ -1,0 +1,29 @@
+body {
+  background-image: url("../images/2013-02-02_00012.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#headerOne {
+  text-align: center;
+  font-family: "Arial Black", Gadget, sans-serif;
+  font-size: 70px;
+  margin: auto;
+  margin-top:3%;
+}
+
+.buttonOne {
+  font-size: 70px;
+  background-color: #3b2;
+  text-decoration: none;
+  color: black;
+  padding: 20px;
+  border-radius: 20%;
+}
+
+.playButton {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 27%;
+}
