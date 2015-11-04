@@ -182,7 +182,7 @@
    		$("#myBoxThree").toggleClass('hidden');
    		$("#myBoxFour").toggleClass('hidden');
    		$("#myBoxFive").toggleClass('hidden');
-   		$('.special:not(.button):before').attr('data-attr','\\f107')
+   	});	
 
 })(jQuery);
 
