@@ -1,0 +1,26 @@
+#buttonTwo {
+}
+#buttonThree {
+	display: none;
+}
+
+body {
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.bodyClassInit {
+	background-image: url('../../images/e923c8dd3e916014c25b1fb159c005ad.png');
+}
+
+.bodyClassOne {
+	background-image: url('../../images/f364b7d0a49566891789d291b8b2e53f.png');
+}
+
+.hidden {
+	display: none;
+}
+
+.visible {
+	display: block;
+}
