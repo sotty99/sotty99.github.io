@@ -14,7 +14,23 @@ body {
 }
 
 .bodyClassOne {
-	background-image: url('../../images/f364b7d0a49566891789d291b8b2e53f.png');
+	background-image: url('../../images/night_sky_wallpaper_by_dji435-d66882b.png');
+}
+
+.bodyClassTwo {
+	background-image: url('../../images/AC.gif');
+}
+
+.bodyClassBaron {
+	background-image: url('../../images/Dungeon-of-the-Endless-Feature-Image.jpg');
+}
+
+.bodyClassDrake {
+	background-image: url('../../images/images.jpg');
+}
+
+.bodyClassVictory {
+
 }
 
 .hidden {
@@ -23,4 +39,26 @@ body {
 
 .visible {
 	display: block;
+}
+
+p {
+	margin: 0;
+	color: white;
+}
+
+.charImageDiv {
+	height: 250px;
+	width: 250px;
+}
+
+#userChar {
+	position: absolute;
+	right: 5%;
+	top: 0%;
+}
+
+#compChar {
+	position: absolute;
+	right: 5%;
+	bottom: 20%;
 }
