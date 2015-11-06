@@ -325,6 +325,7 @@ function functionFour() {
       dungeonMonsterSpell2Name = "Wing Slam";
       //document.getElementById("bodyId").classList.remove("bodyClassTwo");
       document.getElementById("bodyId").classList.add("bodyClassDrake");
+      document.getElementById('compChar').src = "../images/piq_48639_400x400.png";
       //document.p.color = 'black';
   }
   else if (randTwo == "L") {
@@ -337,6 +338,7 @@ function functionFour() {
       dungeonMonsterSpell2Name = "Crunch Barrage";
       //document.getElementById("bodyId").classList.remove("bodyClassTwo");
       document.getElementById("bodyId").classList.add("bodyClassBaron");
+      document.getElementById('compChar').src = "../images/pixel_snake_by_guiltplz-d5l7skp.png";
       //document.p.color = 'black';
   }
 
@@ -616,7 +618,7 @@ function functionThree() {
       dungeonMonsterDMG = 70;
       dungeonMonsterSpell1Name = "Ravage Chomp";
       dungeonMonsterSpell2Name = "Claw Barrage";
-      document.getElementById('compChar').src = "../images/download.png";
+      document.getElementById('compChar').src = "../images/tumblr_ma0tijLFPg1rfjowdo1_500.gif";
   }
 
   alert("A wild " + dungeonMonster + "has appeared!");
