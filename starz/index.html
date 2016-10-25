@@ -1,0 +1,110 @@
+<html lang="en">
+<head>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<title>Stars in their Eyes</title>
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js" type="text/javascript"></script> 
+	
+
+	<script type="text/javascript">
+	$(function() {
+  		$('a[href*="#"]:not([href="#"])').click(function() {
+    		if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      			var target = $(this.hash);
+      			target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      			if (target.length) {
+       				$('html, body').animate({
+          				scrollTop: target.offset().top
+        			}, 500);
+        			return false;
+    			}
+    		}
+  		});
+	});
+	</script>
+</head>
+
+<body>
+	<header>
+		<div id="topPage">
+			<ul id="topPageList">
+				<li class="topPageListItem"><a href="" class="topPageListLinks">Home</a></li>
+				<li class="topPageListItem"><a href="" class="topPageListLinks">Page 2</a></li>
+				<li class="topPageListItem"><a href="" class="topPageListLinks">Page 3</a></li>
+				<li class="topPageListItem"><a href="" class="topPageListLinks">Page 4</a></li>
+				<li class="topPageListItem"><a href="" class="topPageListLinks">Page 5</a></li>
+			</ul>
+		</div>
+
+		<div class="stars" id="linkTop"></div>
+		<div class="twinkling"></div>
+		<div id="starzBanner"></div>
+		<div id="starzDate"><h1>00 . 00 . 00</h1></div>
+
+		<div id="bottomContact">
+			<ul>
+ 				<li><a href="#link1">Link1</a></li>
+  				<li><a href="#link2">Link2</a></li>
+  				<li><a href="#linkTop">Top</a></li>
+  				<li><a href="#link3">Link3</a></li>
+  				<li><a href="#link4">Link4</a></li>
+			</ul>
+		</div>
+	</header>
+	<div id="link1">
+		<!--
+		<a href="#linkTop" class="linkToTopButton"><div class="linkToTop" style="border: none;"><span class="linkToTopSpan">&#10148</span></div></a>
+		
+		<a href="#link2" class="linkToBotButton"><div class="linkToBot" style="border: none;"><span class="linkToBotSpan">&#10148</span></div></a>
+		-->
+
+
+
+
+		<div class="stars"></div>
+		<div class="twinkling"></div>
+
+		<div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+			<div class="flipper" >
+				<div class="front" >
+					<div class="fronts"></div>
+					<div class="textInside"></div>
+					<!-- front content -->
+				</div>
+				<div class="back" >
+					<div class="backs"></div>
+					<div class="textInside"></div>
+					<!-- back content -->
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+	<div id="link2">
+		<!--
+		<a href="#linkTop" class="linkToTopButton"><div class="linkToTop"><span class="linkToTopSpan">&#10148</span></div></a>
+		-->
+
+		<div class="stars"></div>
+		<div class="twinkling"></div>
+	</div>
+
+	<div id="link3">
+		<!--
+		<a href="#linkTop" class="linkToTopButton"><div class="linkToTop"><span class="linkToTopSpan">&#9924</span></div></a>
+		-->
+		<div class="stars"></div>
+		<div class="twinkling"></div>
+	</div>
+
+	<div id="link4">
+		<!--
+		<a href="#linkTop" class="linkToTopButton"><div class="linkToTop"><span class="linkToTopSpan">&#9924</span></div></a>
+		-->
+		<div class="stars"></div>
+		<div class="twinkling"></div>
+	</div>
+</body>
+
+</html>

@@ -175,7 +175,7 @@ function functionOne() {
         dodge = dodge + 10;
         crit = crit + 20;
       }
-      document.getElementById('userChar').src = "../images/piq_62092_400x400.png";
+      document.getElementById('userChar').src = "../../images/piq_62092_400x400.png";
       break;
     case 2:
       className = "Warrior";
